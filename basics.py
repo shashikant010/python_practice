@@ -3,4 +3,6 @@
 
 
 print("hello world !!")
-print("Hello", "how are you?", sep="---")
+with open("first.py","w") as f:
+    print("print('hello')",file=f)
+print("Hello", "how are you?", sep="---",end="hii")
